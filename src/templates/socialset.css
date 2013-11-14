@@ -1,0 +1,59 @@
+/*SOCIAL ICON SET*/
+@-webkit-keyframes oscillation
+{
+	from { -webkit-transform:rotate(-5deg); }
+	to { -webkit-transform:rotate(5deg); }
+}
+@-moz-keyframes oscillation
+{
+	from { -moz-transform:rotate(-5deg); }
+	to { -moz-transform:rotate(5deg); }
+}
+.mail-icon {  
+	-webkit-transform-origin:50% -40px;  
+	-moz-transform-origin:50% -40px;   
+	-webkit-animation: oscillation 0.8s ease-in-out infinite alternate;
+	-moz-animation: oscillation 0.8s ease-in-out infinite alternate;
+	background: url('../img/mail-icon.png') no-repeat;
+	height: 179px;
+	width: 64px;
+	position: absolute;
+	right: 250px;
+	top: 0;
+}
+.gplus-icon {  
+	-webkit-transform-origin:50% -40px;  
+	-moz-transform-origin:50% -40px;   
+	-webkit-animation: oscillation 1.2s ease-in-out infinite alternate;
+	-moz-animation: oscillation 1.2s ease-in-out infinite alternate;
+	background: url('../img/gplus-icon.png') no-repeat;
+	height: 145px;
+	width: 78px;
+	position: absolute;
+	right: 180px;
+	top: 0;
+}
+.fb-icon {  
+	-webkit-transform-origin:50% -40px;  
+	-moz-transform-origin:50% -40px;   
+	-webkit-animation: oscillation 1.5s ease-in-out infinite alternate;
+	-moz-animation: oscillation 1.5s ease-in-out infinite alternate;
+	background: url('../img/fb-icon.png') no-repeat;
+	height: 207px;
+	width: 101px;
+	position: absolute;
+	right: 110px;
+	top: 0;
+}
+.twitter-icon {  
+	-webkit-transform-origin:50% -40px;  
+	-moz-transform-origin:50% -40px;   
+	-webkit-animation: oscillation 1s ease-in-out infinite alternate;
+	-moz-animation: oscillation 1SSs ease-in-out infinite alternate;
+	background: url('../img/twitter-icon.png') no-repeat;
+	height: 131px;
+	width: 85px;
+	position: absolute;
+	right: 40px;
+	top: 0;
+}

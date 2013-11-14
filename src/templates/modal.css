@@ -1,0 +1,37 @@
+.basic-modal-content {
+	display: none;
+}
+.simplemodal-overlay {
+	background-color: #000;
+}
+.simplemodal-container {
+	height: 460px; 
+	width: 1000px; 
+	color: #000; 
+	background-color: #FFF; 
+	border: 5px solid rgba(0,0,0,0.5); 
+	padding: 15px 30px 15px 30px;
+}
+.simplemodal-container a.modalCloseImg {
+	background: url(../img/modal-close.png) no-repeat; 
+	width: 25px; 
+	height: 29px; 
+	display: inline; 
+	z-index: 3200; 
+	position :absolute; 
+	top: -15px; 
+	right: -16px; 
+	cursor: pointer;
+}
+.basic-modal-content .header {
+	font-size: 28px;
+	color: rgb(0,50,0);
+	border-bottom: 1px solid #BBB;
+	padding: 3px 6px 3px 6px;
+	font-weight: bold;
+}
+.basic-modal-content .content {
+	height: 380px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #BBB;
+}
